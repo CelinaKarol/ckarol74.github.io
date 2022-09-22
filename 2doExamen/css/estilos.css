@@ -87,6 +87,12 @@ body {
 .nav__img {
     display: block;
     width: 30px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.header__img {
+    display: block;
+    width: 80px;
 }
 
 .nav__close {
@@ -94,7 +100,7 @@ body {
 }
 
 .headlines{
-    display: flex;s
+    display: flex;
     flex-wrap: wrap;
     height: auto;
 }
@@ -332,6 +338,7 @@ input{
     list-style: none;
     font-weight: 100;
 }
+
 .footer__end{
     padding-top: 50px;
     text-align: center;
