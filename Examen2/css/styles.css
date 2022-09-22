@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -6,6 +6,7 @@
 body{
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
 }
 header{
     position: sticky;
@@ -19,13 +20,14 @@ header picture{
     width: 15%;
     height: auto;
     text-align: center;
-    max-height: 100%;
+    max-height: 70%;
     justify-content: center;
 }
 header picture img{
     text-align: center;
-    padding-top: 10px;
     padding-left: 5px;
+    margin-top: 5px;
+    max-width: 80%
 }
 header nav{
     width: 80%;
@@ -35,10 +37,9 @@ header nav ul{
     display: flex;
     list-style: none;
     color: white;
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: small;
-    padding-top: 25px;
+    padding-top: 15px;
     justify-content: end;
 }
 nav ul li:hover{
@@ -53,11 +54,11 @@ nav ul li{
 }
 header button{
     width: 10%;
-    margin-top: 8px;
+    margin-top: 5px;
     margin-right: 5px;
-    max-height: 50px;
-    max-width: 50px;
-    padding: 10px;
+    max-height: 30px;
+    max-width: 30px;
+    padding: 5px;
     border-radius: 50%;
     align-content: center;
     background-color: gold;
@@ -66,10 +67,6 @@ header button{
 header button:hover{
     cursor: pointer;
 }
-img {
-    width: 100%;
-    height: auto;
-    }
 main{
     display: flex;
     height: auto;
@@ -93,9 +90,6 @@ main section.titles div.left{
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: 'Roboto';
-    font-style: italic;
-    font-weight: 900;
 }
 main section.titles div.right{
     width: 50%;
@@ -103,20 +97,17 @@ main section.titles div.right{
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: 'Roboto';
-    font-style: italic;
     font-weight: 900;
 }
 main section.titles h1{
     font-weight: 900;
 }
-main section.image{
+main section div.images-main{
     width: 100%;
     height: auto;
     text-align: center;
     justify-content: center;
 }
-
 section.items {
     display: flex;
     flex-direction: row;
@@ -125,7 +116,7 @@ section.items {
     height: auto;
     display: flex;
     justify-content: center;
-    background-color: gold);
+    background-color: gold;
     text-align: center;
     justify-content: space-around;
 }
@@ -135,8 +126,8 @@ section.items div{
     display: flex;
     border: 10px;
     background-color: black;
-    justify-content: start;
 }
+
 footer{
     width: 100%;
     height: auto;
